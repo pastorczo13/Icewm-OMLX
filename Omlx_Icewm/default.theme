@@ -1,0 +1,141 @@
+ThemeName=                                 "Omlx_Icewm"
+ThemeAuthor=                               "pastorczo13"
+ThemeDescription=                          "Omlx_Icewm - based on Arc-ice and Icewm_Nord_style"
+License=                                   "GPLv3"
+
+Look=                                      flat
+Gradients=                                 "taskbuttonactive.xpm taskbuttonbg.xpm taskbuttonminimized.xpm dialogbg.xpm logoutbg.xpm workspacebuttonactive.xpm menusel.xpm"
+
+RolloverButtonsSupported=                  1
+TitleButtonsSupported=                     "xmirs"
+TitleButtonsLeft=                          "sr"
+TitleButtonsRight=                         "xmi"
+TaskBarClockLeds=                          1
+TrayDrawBevel=                             0
+BorderSizeX=                               4
+BorderSizeY=                               4
+DlgBorderSizeX=                            4
+DlgBorderSizeY=                            4
+CornerSizeX=                               20
+CornerSizeY=                               20
+TitleBarHeight=                            28
+TitleBarJustify=                           50
+ScrollBarX=                                16
+ScrollBarY=                                16
+
+MenuIconSize=                              22
+SmallIconSize=                             16
+LargeIconSize=                             32
+HugeIconSize=                              48
+
+
+#DialogBox
+ColorDialog=                               "rgb:33/36/43"
+ColorDialogSelectionText=                  "rgb:236/242/255"
+
+ColorNormalBorder="#21242b"
+ColorActiveBorder="#21242b"
+
+ColorNormalTitleBar="#21242b"
+ColorActiveTitleBar="#21242b"
+ColorNormalTitleBarText="#606167"
+ColorActiveTitleBarText="#afb3bd"
+
+ColorNormalMenu="#21242b"
+ColorActiveMenuItem="#21242b"
+ColorNormalMenuItemText="#afb3bd"
+ColorActiveMenuItemText="white"
+ColorDisabledMenuItemText="#606167"
+
+ColorMoveSizeStatus="#232627"
+ColorMoveSizeStatusText="#afb3bd"
+
+PagerShowBorders=0				# Menu
+ColorDefaultTaskBar="#21242b"
+ColorNormalTaskBarApp="#21242b"
+ColorNormalTaskBarAppText="#afb3bd"
+ColorActiveTaskBarApp="#21242b"
+ColorActiveTaskBarAppText="white"
+ColorMinimizedTaskBarApp="#31363b"
+ColorMinimizedTaskBarAppText="#606167"
+#ColorNormalWorkspaceButton=" "
+#ColorNormalWorkspaceButtonText=" "
+ColorActiveWorkspaceButton="#2080bb"
+ColorActiveWorkspaceButtonText="white"
+
+ColorNormalButton="#21242b"
+ColorNormalButtonText="#afb3bd"
+
+ColorListBox="#31363b"
+ColorListBoxText="#afb3bd"
+ColorListBoxSelection="#2080bb"
+ColorListBoxSelectionText="white"
+
+#ColorScrollBar=" "
+#ColorScrollBarSlider=" "
+#ColorScrollBarButton=" "
+#ColorScrollBarButtonArrow=" "
+#ColorScrollBarInactiveArrow=" "
+
+# gray / blue
+ColorCPUStatusUser="#40a5da"
+ColorCPUStatusSystem="#40a5da"
+ColorCPUStatusNice="#40a5da"
+ColorCPUStatusIdle="#232627"
+ColorMEMStatusFree="#232627"
+ColorMEMStatusBuffers="#40a5da"
+ColorMEMStatusCached="#40a5da"
+ColorNetSend="#40a5da"
+ColorNetReceive="#40a5da"
+ColorNetIdle="#232627"
+
+TaskBarClockLeds=0				# 0/1
+ColorClock="#21242b"
+ColorClockText="#a740da"
+
+ColorToolTip="#232627"
+ColorToolTipText="#ffffff"
+ColorLabel="#21242b"
+ColorLabelText="#afb3bd"
+ColorDialog="#21242b"
+
+ColorQuickSwitch="#21242b"
+ColorQuickSwitchActive="#2080bb"
+ColorQuickSwitchText="#afb3bd"
+ColorQuickSwitchSelectionText="#afb3bd"
+
+# Lighter
+#ColorInput="#afb3bd"
+#ColorInputText="#21242b"
+#ColorInputSelection="#2080bb"
+#ColorInputSelectionText="white"
+
+# Darker
+#ColorInput="#38714b"
+ColorInput="#40a5da"
+#ColorInput="#ecf2ff"
+ColorInputText="#ffffff"
+ColorInputSelection="#40a5da"
+ColorInputSelectionText="#21242b"
+
+# --------------------
+#Fonts
+TitleFontNameXft=                          "liberation sans:size=12"
+StatusFontNameXft=                         "liberation sans:size=12"
+MenuFontNameXft=                           "liberation sans:size=12"
+NormalTaskBarFontNameXft=                  "liberation sans:size=12"
+ActiveTaskBarFontNameXft=                  "liberation sans:size=12"
+ListBoxFontNameXft=                        "liberation sans:size=12"
+ToolTipFontNameXft=                        "liberation sans:size=12"
+QuickSwitchFontNameXft=                    "liberation sans:size=13"
+ClockFontNameXft=                          "liberation sans:size=12"
+
+# --------------------
+# Desktop Background
+# --------------------
+DesktopBackgroundColor=""		# Prevent IceWM showing a background color
+DesktopBackgroundImage=""		# Prevent IceWM showing a background image
+DesktopBackgroundCenter=0		# 0/1
+DesktopBackgroundScaled=1		# 0/1
+DesktopBackgroundColor=""
+DesktopBackgroundImage="default.png"
